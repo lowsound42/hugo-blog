@@ -1,6 +1,6 @@
 ---
 title: "My 100th first post"
-date: 2024-07-16T17:30:00+00:00
+date: 2024-07-15T11:30:00+00:00
 # weight: 1
 # aliases: ["/first"]
 tags: []

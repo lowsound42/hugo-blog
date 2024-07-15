@@ -1,5 +1,5 @@
 baseURL: "https://lowsound.dev/"
-title: I Do Business
+title: Omario
 paginate: 5
 theme: PaperMod
 
@@ -7,7 +7,7 @@ enableRobotsTXT: true
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Omar Khan | I do business
+  title: Omario
   description: "Omar's space for thoughts and stuff"
   keywords: [Blog, Portfolio, PaperMod]
   author: ["Me"]
@@ -44,7 +44,7 @@ params:
 
   homeInfoParams:
     Title: Omar writes in the third person. But I'm not very good at it.
-    Content: Unfolding brainular substance
+    Content: Cycling | Coding | Pizza | Cats & Dogs
 
   socialIcons: # optional
     - name: "github"
