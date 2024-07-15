@@ -1,7 +1,7 @@
 baseURL = 'https://lowsound.dev/'
 languageCode = 'en-us'
 title = 'I Do Business'
-theme="archie"
+theme="PaperMod"
 copyright = "© Lowsound"
 # Code Highlight
 pygmentsstyle = "monokai"
