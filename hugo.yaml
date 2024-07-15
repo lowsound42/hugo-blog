@@ -1,0 +1,76 @@
+baseURL: "https://lowsound.dev/"
+title: I Do Business
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Omar Khan | I do business
+  description: "Omar's space for thoughts and stuff"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: ["Me"]
+  # author: ["Me", "You"] # multiple authors
+  images: ["/assets/gobiandme.webp"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "./assets/favicon.ico"
+    favicon16x16: "./assets/favicon-16x16.png"
+    favicon32x32: "./assets/favicon-32x32.png"
+    apple_touch_icon: "./assets/apple-touch-icon.png"
+    safari_pinned_tab: "./assets/apple-touch-icon.png"
+
+  homeInfoParams:
+    Title: Omar writes in the third person. But I'm not very good at it.
+    Content: Unfolding brainular substance
+
+  socialIcons: # optional
+    - name: "github"
+      url: "https://github.com/lowsound42"
+    - name: "mastodon"
+      url: "https://mastodon.sdf.org/@pxplowsound"
+    - name: "rss"
+      url: "https://lowsound.dev/index.xml"
+
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
