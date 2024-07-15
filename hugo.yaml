@@ -47,6 +47,8 @@ params:
     Content: Cycling | Coding | Pizza | Cats & Dogs
 
   socialIcons: # optional
+    - name: "email"
+      url: "mailto:o.khandxb@gmail.com"
     - name: "github"
       url: "https://github.com/lowsound42"
     - name: "mastodon"
