@@ -1,6 +1,6 @@
 ---
 title: "Gobi"
-date: 2024-05-25T11:30:03+00:00
+date: 2024-05-26T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
 tags: ["cycling", "gobi"]
